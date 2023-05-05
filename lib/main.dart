@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blueGrey,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -50,13 +50,13 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
-                    color: Colors.teal,
+                    color: Colors.grey,
                   ),
                   title: Text(
                     '787-320-6984',
                     style: TextStyle(
                         fontSize: 19.0,
-                        color: Colors.teal.shade900,
+                        color: Colors.grey.shade900,
                         fontFamily: 'Source Sans Pro'),
                   ),
                 ),
@@ -67,13 +67,13 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Colors.teal,
+                    color: Colors.grey.shade500,
                   ),
                   title: Text(
                     'melissa.arroyo@holbertonstudents.com',
                     style: TextStyle(
                         fontSize: 19.0,
-                        color: Colors.teal.shade900,
+                        color: Colors.grey.shade900,
                         fontFamily: 'Source Sans Pro'),
                   ),
                 ),

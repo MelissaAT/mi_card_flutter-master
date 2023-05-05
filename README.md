@@ -1,28 +1,56 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Mi Card Flutter
 
-# Mi Card
+A personal business card app created using Flutter. This project showcases a simple and elegant design for displaying contact information, social media handles, and more. It is a great starting point for beginners who want to explore and learn Flutter while building a visually appealing app.
 
-## Our Goal
+![Mi Card Screenshot](./images/screenshot.png)
 
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+## Features
 
-## What you will create
+- Customizable design elements, such as colors, fonts, and images
+- Responsive layout, adapting to different screen sizes
+- Lightweight and efficient app performance
+- Cross-platform support for Android and iOS
 
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+## Getting Started
 
-## What you will learn
+These instructions will help you set up and run the project on your local machine.
 
-* How to create Stateless Widgets
-* What is the difference between hot reload and hot refresh and running an app from cold
-* How to use Containers to lay out your UI
-* How to use Columns and Rows to position your UI elements
-* How to add custom fonts
-* How to add Material icons
-* How to style Text widgets
-* How to read and use Flutter Documentation
+### Prerequisites
+
+- Install [Flutter](https://flutter.dev/docs/get-started/install) and set up the environment
+- Install [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/) with the Flutter and Dart plugins
+
+### Running the Project
+
+1. Clone the repository:
+git clone https://github.com/MelissaAT/mi_card_flutter-master.git
+
+
+2. Navigate to the project directory:
+
+cd mi_card_flutter-master
+
+
+3. Get the required dependencies:
+
+flutter pub get
+
+
+4. Run the app on an emulator or a connected device:
+
+flutter run
 
 
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+## Customizing the App
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+To personalize your business card, edit the `lib/main.dart` file:
+
+- Replace the `assets/images/avatar.png` with your own image
+- Modify the text content to reflect your personal information
+- Customize the colors, fonts, and other design elements as desired
+
+
+# Acknowledgements
+
+This project was created as part of the [Complete Flutter Development Bootcamp](https://www.udemy.com/course/flutter-bootcamp-with-dart/) course on Udemy, taught by Angela Yu. I highly recommend this course to anyone interested in learning Flutter and mobile app development.
