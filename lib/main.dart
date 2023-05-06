@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.grey,
                   ),
                   title: Text(
-                    '787-320-6984',
+                    '123-456-7890',
                     style: TextStyle(
                         fontSize: 19.0,
                         color: Colors.grey.shade900,
@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.grey.shade500,
                   ),
                   title: Text(
-                    'melissa.arroyo@holbertonstudents.com',
+                    'name@example.com',
                     style: TextStyle(
                         fontSize: 19.0,
                         color: Colors.grey.shade900,
