@@ -6,7 +6,7 @@
   --color-quinary: #355C7D;
 }
 body {
-  background-image: url('images/Fitness.jpg'); /* Replace 'path-to-your-image.jpg' with the actual path to your background image */
+  background-image: url('images/Fitness.jpg'); 
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
